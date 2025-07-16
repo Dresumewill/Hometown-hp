@@ -19,7 +19,7 @@ body {
 }
 
 .hero h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
   background-color: #59A30F;
   padding: 10px 20px;
   border-radius: 10px;
@@ -28,7 +28,7 @@ body {
 }
 
 .hero p {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   background-color: #8FC040;
   padding: 10px 20px;
   display: inline-block;
