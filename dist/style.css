@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Happy Monkey', cursive;
+  background-color: #f1fef1;
+  color: #222;
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  background-image: url("https://i.postimg.cc/d3yYNmB3/Hometown-page.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(none);
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  background-color: #59A30F;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.hero-subtitle {
+  background-color: #8FC040;
+  padding: 8px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 1.1rem;
+}
+
+.activities {
+  padding: 60px 20px;
+  background-color: #F1FAEE;
+}
+
+.activities-heading {
+  font-size: 1.6rem;
+  color: #59A30F;
+  margin-bottom: 40px;
+}
+
+.activity-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #F1FAEE;
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+  color: #F1FAEE;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card-title {
+  margin: 15px 0 10px;
+  color: #558B2F;
+}
+
+.card-desc {
+  font-size: 0.9rem;
+  color: #55882f;
+}
+
+.guide-section {
+  display: flex;
+  background-color: #D6FD99;
+  padding: 40px 20px;
+  max-width: 400px;
+  margin: 60px auto;
+  border-radius: 10px;
+  box-shadow: 0 6px #59A30F;
+}
+
+.guide-img {  
+  width: 180px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.guide-title {
+  color: #59A30F;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.guide-quote {
+  font-size: 1rem;
+  padding: 0 10px;
+  color: #59A30F
+}
+
+.guide-name {
+  margin-top: 10px;
+  color: #59A30F;
+}
