@@ -18,28 +18,22 @@ body {
   text-align: center;
 }
 
-.hero-overlay {
-  background-color: rgba(none);
-  padding: 30px;
-  border-radius: 15px;
-  display: inline-block;
-}
-
-.hero-title {
+.hero h2{
   font-size: 2.5rem;
   background-color: #59A30F;
   padding: 10px 20px;
   border-radius: 10px;
   display: inline-block;
+  margin-bottom: 10px;
 }
 
-.hero-subtitle {
+.hero p {
+  font-size: 1.3rem;
   background-color: #8FC040;
-  padding: 8px 16px;
-  border-radius: 10px;
-  margin-top: 20px;
+  padding: 10px 20px;
   display: inline-block;
-  font-size: 1.1rem;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
 .activities {
