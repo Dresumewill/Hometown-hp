@@ -9,13 +9,13 @@ body {
 .hero-section {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   background-image: url("https://i.postimg.cc/d3yYNmB3/Hometown-page.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
   color: white;
   text-align: center;
-  align-items: center;
 }
 
 .hero-overlay {
